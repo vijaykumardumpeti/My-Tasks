@@ -1,0 +1,128 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.left-container {
+  background-color: #131213;
+  height: 100vh;
+  width: 40vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.right-container {
+  background-color: #000000;
+  height: 100vh;
+  width: 60vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 10px;
+}
+.heading {
+  color: #f3aa4e;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  height: 200px;
+}
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-element {
+  width: 400px;
+  height: 35px;
+  outline: none;
+  color: #64748b;
+}
+.label-text {
+  font-size: 22px;
+}
+.add-button {
+  color: white;
+  background-color: #f3aa4e;
+  border: 0px none transparent;
+  border-radius: 5px;
+  padding: 5px;
+
+  height: 35px;
+  width: 85px;
+
+  align-self: center;
+}
+.buttons-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+
+  width: 50vw;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+
+  overflow-y: scroll;
+}
+.task-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 55vw;
+  background-color: #1a171d;
+  margin: 10px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 5px;
+}
+.btn-style-for-item {
+  background-color: #f3aa4e;
+  color: #323f4b;
+  font-weight: bold;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+}
+.input-para {
+  font-size: 22px;
+}
+.button-item {
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 6px 10px 6px 10px;
+}
+.tag-btn {
+  color: white;
+  background-color: transparent;
+  border: 0px none transparent;
+}
+.btn-style {
+  background-color: #f3aa4e;
+}
+.empty-style {
+  background-color: transparent;
+}
